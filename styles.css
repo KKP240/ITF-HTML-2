@@ -1,0 +1,102 @@
+* {
+    font-family: sans-serif;
+    background-color: white;
+
+}
+
+.content-1 {
+    border: 3px solid gray;
+    width: 1024px;
+    margin: auto;
+}
+
+.flex-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-item1 {
+    position: relative;
+    text-align: center;
+    margin-top: 36px;
+    
+}
+
+.avatar {
+    font-weight: bold; 
+    background-color: gray; 
+    width: 128px; 
+    height: 128px; 
+    border-radius: 50%;
+}
+
+.redtick {
+    position: absolute;
+    display: grid;
+    background-color: rgb(255, 0, 0);
+    width: 32px; 
+    height: 32px; 
+    border-radius: 50%;
+    place-items: center;
+    right: -70%;
+    top: -40px;
+    
+}
+
+#avatarpic, .redtick {
+    position: relative;
+}
+
+.flex-item2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 5px;
+}
+
+.button1 {
+    background-color: rgb(245, 238, 238);
+    border-radius: 20%;
+    
+}
+
+.button2 {
+    background-color: rgb(245, 238, 238);
+    border-radius: 20%;
+    
+}
+
+.gallery {
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(4,300px);
+    gap: 10px;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-item {
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+}
+
+#myusername a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s;
+}
+
+#myusername a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
